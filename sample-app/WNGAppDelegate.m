@@ -22,7 +22,18 @@ WNGLogger *logger;
 
     logger = [[WNGLogger alloc] initWithConfig:apiHost apiKey:apiKey];
     
+    [self someIntensiveLogic];
+    
     return YES;
+}
+
+- (void) someIntensiveLogic {
+    NSString *metricName = @"sample-app_WNGAppDelegate_someIntensiveLogic";
+    [logger recordStart:metricName];
+
+    [NSThread sleepForTimeInterval:0.5];
+    
+    [logger recordFinishAndSendMetric:metricName];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
