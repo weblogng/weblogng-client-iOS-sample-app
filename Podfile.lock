@@ -21,11 +21,11 @@ PODS:
     - AFNetworking (= 2.0.3)
 
 DEPENDENCIES:
-  - WNGLogger (from `git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git`, commit `f47432d`)
+  - WNGLogger (from `git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git`, commit `213cb88`)
 
 EXTERNAL SOURCES:
   WNGLogger:
-    :commit: f47432d
+    :commit: 213cb88
     :git: git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git
 
 SPEC CHECKSUMS:
