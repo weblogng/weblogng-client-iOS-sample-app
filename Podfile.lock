@@ -17,19 +17,19 @@ PODS:
   - AFNetworking/Serialization (2.0.3)
   - AFNetworking/UIKit (2.0.3):
     - AFNetworking/NSURLConnection
-  - WNGLogger (0.1.0):
+  - WNGLogger (0.2.0):
     - AFNetworking (= 2.0.3)
 
 DEPENDENCIES:
-  - WNGLogger (from `git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git`, commit `213cb88`)
+  - WNGLogger (from `git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git`, commit `a1e8c1b`)
 
 EXTERNAL SOURCES:
   WNGLogger:
-    :commit: 213cb88
+    :commit: a1e8c1b
     :git: git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git
 
 SPEC CHECKSUMS:
   AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
-  WNGLogger: 6ec66c91da426aaa44947dfdfd651e18c6d3661c
+  WNGLogger: 8a81ef9c26c0e75e54d9cc85bb8819b41fa4ea92
 
 COCOAPODS: 0.29.0
