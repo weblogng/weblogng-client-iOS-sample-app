@@ -1,35 +1,36 @@
 PODS:
-  - AFNetworking (2.0.3):
+  - AFNetworking (2.2.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.0.3):
+  - AFNetworking/NSURLConnection (2.2.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.0.3):
+  - AFNetworking/NSURLSession (2.2.4):
     - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.0.3)
-  - AFNetworking/Security (2.0.3)
-  - AFNetworking/Serialization (2.0.3)
-  - AFNetworking/UIKit (2.0.3):
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
     - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - WNGLogger (0.5.0):
     - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
-  - WNGLogger (from `git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git`, commit `31e2557`)
+  - WNGLogger (from `https://github.com/weblogng/weblogng-client-iOS.git`, commit `830b996`)
 
 EXTERNAL SOURCES:
   WNGLogger:
-    :commit: 31e2557
-    :git: git@bitbucket.org:beardedrobotllc/weblog-ng-client-ios.git
+    :commit: 830b996
+    :git: https://github.com/weblogng/weblogng-client-iOS.git
 
 SPEC CHECKSUMS:
-  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
   WNGLogger: d21e959431de616aabb43e9289286c3db2ed8044
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.33.1
