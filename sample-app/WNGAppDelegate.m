@@ -35,6 +35,14 @@
     [NSThread sleepForTimeInterval:seconds_to_sleep];
     
     [[WNGLogger sharedLogger] recordFinishAndSendMetric:metricName];
+    
+    [[WNGLogger sharedLogger] executeWithTiming:@"sample-app-anExpensiveBlock" aBlock:^(void){
+        int millis_to_sleep = 250 + arc4random_uniform(250);
+        float seconds_to_sleep = ((float) millis_to_sleep) / 1000;
+        [NSThread sleepForTimeInterval:seconds_to_sleep];
+    }];
 }
+
+
 
 @end
