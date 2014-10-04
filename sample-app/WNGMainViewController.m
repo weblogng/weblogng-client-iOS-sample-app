@@ -7,6 +7,7 @@
 //
 
 #import "WNGMainViewController.h"
+#import <WNGLogger/logger.h>
 
 @interface WNGMainViewController ()
 
@@ -25,6 +26,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)sendMetric:(id)sender
+{
+    NSLog(@"sendMetric callback triggered");
+    [[WNGLogger sharedLogger] executeWithTiming:@"sample-app-controller-callback" aBlock:^(void){
+        int millis_to_sleep = 250 + arc4random_uniform(250);
+        float seconds_to_sleep = ((float) millis_to_sleep) / 1000;
+        [NSThread sleepForTimeInterval:seconds_to_sleep];
+    }];
+
+}
+
 
 #pragma mark - Flipside View Controller
 

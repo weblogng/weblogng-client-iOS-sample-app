@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
+- (IBAction)sendMetric:(id)sender;
+
 @end
