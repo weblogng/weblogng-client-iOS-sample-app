@@ -38,6 +38,20 @@
 
 }
 
+- (IBAction)makeRequest:(id)sender
+{
+    NSLog(@"makeRequest callback start");
+
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]];
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    
+    NSLog(@"makeRequest callback finish");
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+    NSLog(@"connectionDidFinishLoading called");    
+}
+
 
 #pragma mark - Flipside View Controller
 

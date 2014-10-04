@@ -8,10 +8,12 @@
 
 #import "WNGFlipsideViewController.h"
 
-@interface WNGMainViewController : UIViewController <WNGFlipsideViewControllerDelegate, UIPopoverControllerDelegate>
+@interface WNGMainViewController : UIViewController <WNGFlipsideViewControllerDelegate, UIPopoverControllerDelegate, NSURLConnectionDelegate>
 
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
 - (IBAction)sendMetric:(id)sender;
+
+- (IBAction)makeRequest:(id)sender;
 
 @end

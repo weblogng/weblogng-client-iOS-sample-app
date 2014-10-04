@@ -9,6 +9,7 @@
 #import "WNGAppDelegate.h"
 
 #import <WNGLogger/logger.h>
+#import <WNGLogger/NSURLConnection+WNGLogging.h>
 
 @implementation WNGAppDelegate
 
@@ -19,6 +20,7 @@
     NSString *apiKey = @"93c5a127-e2a4-42cc-9cc6-cf17fdac8a7f";
 
     [WNGLogger initSharedLogger:apiKey];
+    [NSURLConnection wng_setLogging:YES];
     
     [self someIntensiveLogic];
     
