@@ -3,7 +3,7 @@
 //  sample-app
 //
 //  Created by Stephen Kuenzli on 12/28/13.
-//  Copyright (c) 2013 Weblog-NG. All rights reserved.
+//  Copyright (c) 2013, 2014 WeblogNG. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
