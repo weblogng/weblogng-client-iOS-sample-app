@@ -21,21 +21,21 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - JRSwizzle (1.0)
-  - WNGLogger (0.7.0):
+  - WNGLogger (0.8.1):
     - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
   - JRSwizzle (~> 1.0)
-  - WNGLogger (from `https://github.com/weblogng/weblogng-client-iOS.git`, branch `issue-9-capture-network-operations-automatically`)
+  - WNGLogger (from `https://github.com/weblogng/weblogng-client-iOS.git`, tag `0.8.1`)
 
 EXTERNAL SOURCES:
   WNGLogger:
-    :branch: issue-9-capture-network-operations-automatically
     :git: https://github.com/weblogng/weblogng-client-iOS.git
+    :tag: 0.8.1
 
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
   JRSwizzle: 30da7a2c539a4ebf954b16d15f6dd8221c9f6fa5
-  WNGLogger: 28fbff16343d2add50dd2b4b5097ec1026c10536
+  WNGLogger: a77b390c331bf8a508a7e4f4d33de7324ba00f9b
 
 COCOAPODS: 0.33.1
