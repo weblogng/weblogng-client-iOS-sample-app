@@ -1,5 +1,6 @@
 # lifted some of this from https://github.com/CocoaPods/CocoaPods/blob/master/.gitignore
 Pods
 xcuserdata
+sample-app.xcodeproj/xcuserdata
 sample-app.xcworkspace
 *.xccheckout

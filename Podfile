@@ -1,4 +1,4 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 
-pod 'WNGLogger', :git => 'https://github.com/weblogng/weblogng-client-iOS.git', :tag => '0.8.1'
+pod 'WNGLogger', :git => 'https://github.com/weblogng/weblogng-client-iOS.git', :tag => '0.9.2'
 pod "JRSwizzle", "~> 1.0"

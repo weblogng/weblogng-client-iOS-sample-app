@@ -19,7 +19,7 @@
     //f37d4458-4fcd-4a4c-93e5-3a5fdd499ed1 - account 9
     NSString *apiKey = @"93c5a127-e2a4-42cc-9cc6-cf17fdac8a7f";
 
-    [WNGLogger initSharedLogger:apiKey];
+    [WNGLogger initSharedLogger:apiKey application:@"WNGLogger sample app"];
     [NSURLConnection wng_enableLogging];
     
     [self someIntensiveLogic];
